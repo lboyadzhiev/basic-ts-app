@@ -1,5 +1,7 @@
 import { type ComponentPropsWithoutRef } from 'react';
 
+import './Input.css';
+
 type InputProps = {
   label: string;
   id: string;
@@ -7,7 +9,7 @@ type InputProps = {
 
 export default function Input({ id, label, ...props }: InputProps) {
   return (
-    <p>
+    <p className='CustomInput'>
       <label htmlFor={id}>{label}</label>
       <input id={id} {...props} />
     </p>
