@@ -16,9 +16,7 @@ export default function Button(props: ButtonProps | AnchorProps) {
       {isAnchorProps(props) ? (
         <a className='button' href='' {...props}></a>
       ) : (
-        <button className='button' {...props}>
-          Button
-        </button>
+        <button className='button' {...props}></button>
       )}
     </p>
   );

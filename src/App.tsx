@@ -3,14 +3,12 @@ import './App.css';
 // components
 // import Input from './components/Input';
 import Button from './components/Button';
+import Container from './components/Container';
 
 function App() {
   return (
     <main>
-      <Button className='button'>A Button</Button>
-      <Button className='button' href='http://goole.com'>
-        A Link
-      </Button>
+      <Container as={Button}>Click me</Container>
     </main>
   );
 }
