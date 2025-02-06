@@ -1,0 +1,17 @@
+.CustomButton {
+  .button {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #338196;
+    background-color: #338196;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button:hover,
+  .button:active {
+    background-color: #217086;
+    border-color: #217086;
+  }
+}
